@@ -1,0 +1,57 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	//Assign variables here
+    string player1Class;
+    string player1Name;
+    string player2Name;
+    int player1Health;
+    int player2Health;
+    int player1Mana;
+    int player2Mana;
+    
+    cout << "Before we begin, Player 1, what is your name?" << endl;
+    cout << ">";
+    cin >> player1Name;
+    cout << "How about you, Player 2?" << endl;
+    cout << ">";
+    cin >> player2Name;
+	cout << "Hello, and welcome to RPGoff v2!" << endl;
+	cout << "(do /help (class name) to get info on said class." << endl << player1Name << ", choose your class!" << endl;
+	//get player 1's class and store it.
+	cout << ">";
+	cin >> player1Class;
+	if (player1Class == "Warrior") {
+	    cout << "You have selected Warrior." << endl;
+	}
+	if (player1Class == "Mage") {
+	    cout << "You have selected Mage." << endl;
+	}
+if (player1Class == "Chemist") {
+	    cout << "You have selected Chemist." << endl;
+	}
+	If (player1Class == “Assassin”) {
+	    cout << “You have selected Assassin.” << endl;
+	}
+	cout << player2Name << “, choose your class!” << endl;
+	//get player 2’s class and store it.
+	cout << “>”;
+	cin >> player2Class;
+if (player1Class == "Warrior") {
+	    cout << "You have selected Warrior." << endl;
+	}
+	if (player1Class == "Mage") {
+	    cout << "You have selected Mage." << endl;
+	}
+if (player1Class == "Chemist") {
+	    cout << "You have selected Chemist." << endl;
+	}
+	If (player1Class == “Assassin”) {
+	    cout << “You have selected Assassin.” << endl;
+	}
+
+	return 0;
+}
+
